@@ -16,3 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+// Name route
+Route::get('/name', [ProductController::class, 'index']);
+
+// Description route
+Route::get('/description', [ProductController::class, 'index']);
+
+// Price route
+Route::get('/price', [ProductController::class, 'index']);
