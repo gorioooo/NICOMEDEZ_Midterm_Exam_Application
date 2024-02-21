@@ -17,11 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// Name route
-Route::get('/name', [ProductController::class, 'index']);
+Route::get('/name', [NameController::class, 'index']);
 
-// Description route
-Route::get('/description', [ProductController::class, 'index']);
+Route::get('/description', [DescriptionController::class, 'index']);
 
-// Price route
-Route::get('/price', [ProductController::class, 'index']);
+Route::get('/price', [PriceController::class, 'index']);

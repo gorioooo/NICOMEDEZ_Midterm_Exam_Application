@@ -12,7 +12,7 @@
         <div class="container">
             <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="/name">Gadgets</a>
+                <a class="nav-link" href="/name">Name</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="/description">Description</a>
